@@ -8,6 +8,8 @@ It provides a simple interface to manage patient admissions, discharges, billing
 
 👉 [Click here to run the app on Replit](https://replit.com/join/hfrhyrjxkj-saliankartik9)  
 *(No installation required – runs directly in the browser)*
+Username: User1
+Password: 123
 
 ---
 
