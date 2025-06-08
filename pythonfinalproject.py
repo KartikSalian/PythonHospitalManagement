@@ -33,7 +33,7 @@ class Demo1:
         self.newframe2.grid(row=3, column=0)
 
         # label
-        self.lbltitle = Label(self.frame, font=("arial", 50, "bold"), text="           Hospital management system",
+        self.lbltitle = Label(self.frame, font=("arial", 50, "bold"), text="    Hospital management system",
                               bd=10, bg="pink", anchor='n')
         self.lbltitle.grid(row=0, column=0, pady=20)
 
@@ -68,7 +68,7 @@ class Demo1:
     def login_system(self):
         user = self.username.get()
         pas = self.password.get()
-        if user == str('User') and pas == str('123'):
+        if user == str('kartik') and pas == str('123'):
             self.button1.config(state=NORMAL)
             self.button2.config(state=NORMAL)
         else:
