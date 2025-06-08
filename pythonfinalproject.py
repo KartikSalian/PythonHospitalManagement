@@ -68,7 +68,7 @@ class Demo1:
     def login_system(self):
         user = self.username.get()
         pas = self.password.get()
-        if user == str('kartik') and pas == str('123'):
+        if user == str('User1') and pas == str('123'):
             self.button1.config(state=NORMAL)
             self.button2.config(state=NORMAL)
         else:
